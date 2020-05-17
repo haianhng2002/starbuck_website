@@ -1,0 +1,467 @@
+*{
+  color: black;
+}
+
+#icon{
+  width: 40px;
+  margin: 2px;  
+}
+
+.navspace{
+  margin:10px;
+}
+
+
+.nav-link{
+  font-weight: 700;
+  font-size: 10pt;
+  letter-spacing: 1px;
+  margin-left: -3px;
+}
+
+.navtab{
+  color: black;
+}
+
+.navtab:hover{
+  color: green;
+}
+
+.signintext{
+  margin-left:10px;
+  margin-right:10px;
+  margin-top:2px;
+  margin-bottom:2px;
+  font-size: 11pt;
+  font-weight: 500;
+}
+
+.menu{
+  border-bottom: 0px solid green;
+  padding-bottom: 36px;
+  position: absolute;
+}
+
+
+.signinbutton{
+  border-radius: 20px;
+  background-color: white;
+  border:1px solid black;
+}
+.signinbutton:hover{
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  border:1px solid black;
+}
+
+
+.joinintext{
+  margin-left:10px;
+  margin-right:10px;
+  margin-top:2px;
+  margin-bottom:2px;
+  font-size: 11pt;
+  font-weight: 500;
+  color: white;
+}
+
+.joininbutton{
+  border-radius: 20px;
+  background-color: black;
+  border:.5px solid black;
+}
+
+.joininbutton:hover{
+  border-radius: 20px;
+  background-color: #666666;
+  border:.5px solid black;
+}
+
+nav{
+  box-shadow: 1px 1px lightgrey;
+}
+.secondrow{
+  background-color: #f2f2f2;
+  margin-top: 1px;
+  height:50px;
+  border-bottom: .5px solid lightgrey;
+  padding-top: 10px;
+
+}
+
+.secondrow a{
+
+  color:black;
+  font-size: 9.5pt;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+.selected{
+  text-decoration: none;
+  margin-left: 120px;
+  border-bottom: 1px solid black;
+  padding-bottom:5px; 
+}
+
+
+/*Menu Body*/
+.menubody{
+  width:100%;
+}
+
+.leftside{
+  margin-left: 130px;
+}
+
+.leftside table tr th{
+  min-width: 270px;
+}
+
+h6{
+  margin-top: 30px;
+  font-size: 11pt;
+}
+
+
+.lefttab{
+  margin-bottom: 1000px;
+}
+th a p{
+  color:grey;
+  text-decoration: none;
+  font-size: 11pt;
+  font-weight: 350;
+  margin-top: 17px;
+}
+
+th a:hover{
+  color:grey;
+  text-decoration: none;
+  font-size: 11pt;
+  font-weight: 350;
+}
+
+tr th img{
+  border-radius: 100px;
+  width: 115px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+th span{
+  margin-left: 15px;
+  width: 300px;
+  font-size: 14pt;
+  font-weight: 400;
+  min-width: 200px;
+}
+
+table{
+  width: 100%
+}
+
+tr td{
+  min-width: 280px;
+  min-height: 100px
+}
+
+
+/*Bottom Nav*/
+
+.botnav{
+  height: 80px;
+  width: 100%;
+  background-color: #2b221b;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#bagicon{
+  width: 29px;
+  margin:30px;
+  margin-right:-38px;
+
+}
+
+.number{
+    border: none;
+  color: white;
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom: -10px;
+  font-size: 11pt;
+  font-weight: 750;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+#pickup{
+  color: lightgrey;
+  font-size: 11pt;
+  margin:29px;
+  margin-left: 20px;
+  min-width: 330px;
+  font-weight: 500;
+}
+
+#pickup span{
+  color:white;
+  border-bottom: 2px solid grey;
+  padding-bottom: 7px;
+  font-weight: 700;
+}
+
+
+/*Page 2*/
+
+
+.tealabel{
+  font-size: 9pt;
+  text-align: right;
+  margin-left:5px; 
+}
+
+.teaicon{
+  width: 150px;
+}
+
+
+/*Order page*/
+
+
+.contentcontrol{
+  width: 100%;
+  display: flex;
+  margin-top: 100px;
+
+}
+.firstcol{
+  width: 35%;
+  position: fixed;
+  height: 100vh;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 40px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.secondcol{
+  width: 30%;
+  border-left: 0.5px solid lightgrey;
+  position: relative;
+  margin-left:40%;
+  padding-left: 40px;
+  padding-top: 40px;
+  height: 120vh;
+  background-color: #f0f0f0;
+  min-width: 300px;
+}
+
+.thirdcol{
+  width: 35%;
+  position: relative;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-right: 40px;
+  height: 120vh;
+  background-color: #f0f0f0;
+  min-width: 300px;
+
+}
+
+.navicolor {
+  color: grey;
+}
+.navicolor:hover {
+  color: grey;
+}
+
+.orderdes{
+  font-size: 10pt;
+}
+
+#star{
+  color: gold;
+  font-weight: 400;
+}
+
+.orderimage{
+  margin: 2%;
+  width: 95%;
+  border-radius: 1000px;
+}
+
+
+.roundedbutton{
+  position: fixed;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-radius: 80px;
+  background-color: #0b9e32;
+  font-size: 15pt;
+  font-weight: 600;
+  border:0px;
+  top: 82%;
+  right:2%;
+  z-index:10000;
+}
+
+.buttonplacement{
+  padding-bottom: 300px;
+}
+
+
+.selectbox{
+  padding-bottom: 5px;
+  border-bottom: 1.5px solid lightgrey;
+}
+
+
+select{
+  width: 100%;
+  cursor: pointer;
+  font-size: 9pt;
+}
+.selectbox select{
+  background-color: transparent;
+  color: black;
+  border:0px;
+  font-size: 11pt;
+  font-weight: 500;
+  -webkit-appearance:button;
+  outline: none;
+}
+
+.formfont{
+  color:grey;
+  font-size: 10pt;
+}
+
+.edge{
+  display: flex;
+  justify-content: space-between;
+}
+
+.servingsize{
+  border-bottom: 6px solid lightgrey;
+  padding-bottom: 4px;
+}
+
+.calories{
+  border-bottom: 3px solid lightgrey;
+}
+
+.dailyvalue{
+  text-align: right;
+}
+
+.textdent{
+  text-indent: 50px;
+}
+
+.underlined{
+  margin-top: -20px;
+}
+.underlined p{
+  border-bottom: 1px solid lightgrey;
+  font-size: 10.5pt;
+  margin-top: -10px;
+  padding-bottom: 5px;
+  
+}
+
+.infusion{
+  font-size: 10.5pt;
+}
+
+
+@media only screen and (min-width: 700px) {
+  #icon{
+    width: 50px;
+    margin: 18px;
+  margin-left: 24px;
+  margin-right: 24px;
+  }
+  .botnav{
+    height:100px;
+  }
+  #pickup{
+    margin-left: 300px;
+  }
+  #bagicon{
+    margin-right:-219px;
+  }
+  .number{
+    padding-left:200px;
+    padding-right:200px;
+  }
+  .menu{
+    border-bottom: 6px solid green;
+  }
+  .reward{
+    padding-left: 40px;
+  }
+  
+.contentcontrol{
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
